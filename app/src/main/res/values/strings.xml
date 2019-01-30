@@ -1,0 +1,13 @@
+<!--
+  ~ Created by yaoandy107 on 1/30/19 1:59 PM.
+  ~ Last modified 1/30/19 1:59 PM.
+  ~ Copyright (c) 2019. All rights reserved.
+  -->
+
+<resources>
+    <string name="app_name">TAT</string>
+    <string name="title_course">課程</string>
+    <string name="title_calendar">行事曆</string>
+    <string name="title_other">其它</string>
+
+</resources>

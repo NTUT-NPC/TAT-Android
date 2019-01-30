@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by yaoandy107 on 1/30/19 1:59 PM.
+  ~ Last modified 1/30/19 1:59 PM.
+  ~ Copyright (c) 2019. All rights reserved.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navigation_course"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/title_course"/>
+
+    <item
+            android:id="@+id/navigation_calendar"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/title_calendar"/>
+
+    <item
+            android:id="@+id/navigation_menu"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/title_other"/>
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by yaoandy107 on 1/30/19 1:59 PM.
+  ~ Last modified 1/30/19 1:59 PM.
+  ~ Copyright (c) 2019. All rights reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/fragment_default_padding"
+    android:paddingEnd="@dimen/fragment_default_padding"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/iv_menu_item"
+        android:layout_width="42dp"
+        android:layout_height="42dp" />
+
+    <TextView
+        android:id="@+id/tv_menu_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="帳號設定"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="@dimen/text_medium" />
+
+</LinearLayout>

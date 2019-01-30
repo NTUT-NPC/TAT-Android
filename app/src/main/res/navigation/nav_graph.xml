@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by yaoandy107 on 1/30/19 1:59 PM.
+  ~ Last modified 1/30/19 1:59 PM.
+  ~ Copyright (c) 2019. All rights reserved.
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_course">
+
+    <fragment
+        android:id="@+id/navigation_course"
+        android:name="me.blackmaple.tat.ui.course.CourseFragment"
+        android:label="課表"
+        tools:layout="@layout/fragment_course" />
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="me.blackmaple.tat.ui.calendar.CalendarFragment"
+        android:label="行事曆"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/navigation_menu"
+        android:name="me.blackmaple.tat.ui.menu.MenuFragment"
+        android:label="其它"
+        tools:layout="@layout/fragment_menu" />
+
+</navigation>

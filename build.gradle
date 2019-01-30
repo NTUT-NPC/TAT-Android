@@ -1,0 +1,42 @@
+/*
+ * Created by yaoandy107 on 1/30/19 1:59 PM.
+ * Last modified 1/30/19 1:59 PM.
+ * Copyright (c) 2019. All rights reserved.
+ */
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+ext {
+    nav_version = "1.0.0-alpha11"
+    arch_lifecycle_version = "1.0.0"
+    anko_version = "0.10.8"
+    leakcanary_version = "1.6.3"
+}
+
+buildscript {
+    ext.kotlin_version = '1.3.20'
+    ext.gradle_plugin_version = '3.3.0'
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradle_plugin_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

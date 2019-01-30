@@ -1,0 +1,15 @@
+<!--
+  ~ Created by yaoandy107 on 1/30/19 1:59 PM.
+  ~ Last modified 1/30/19 1:59 PM.
+  ~ Copyright (c) 2019. All rights reserved.
+  -->
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_default_padding">16dp</dimen>
+
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_large">22sp</dimen>
+
+</resources>
