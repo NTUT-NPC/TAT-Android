@@ -1,5 +1,5 @@
 # TAT - Android
-[![API](https://img.shields.io/badge/API-21%2B-blue.svg)](https://android-arsenal.com/api?level=21) ![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg) ![Android](https://img.shields.io/badge/platform-Android-green.svg) ![Kotlin](https://img.shields.io/badge/language-Kotlin-orange.svg)
+[![API](https://img.shields.io/badge/API-21%2B-blue.svg)](https://android-arsenal.com/api?level=21) ![Maintenance](https://img.shields.io/badge/maintained-yes-red.svg) ![Android](https://img.shields.io/badge/platform-Android-green.svg) ![Kotlin](https://img.shields.io/badge/language-Kotlin-orange.svg) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 An App for Taipei Tech Student.
 
